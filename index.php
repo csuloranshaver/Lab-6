@@ -5,6 +5,8 @@
     $query = "SELECT * FROM customers
               ORDER BY customerID";
     $customers = $db->query($query);
+    
+    $db->close();
 ?>
 <!DOCTYPE html>
 <html>
